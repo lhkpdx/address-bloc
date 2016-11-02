@@ -50,6 +50,8 @@ require_relative '../models/address_book'
      end
    end
 
+   private
+
    def view_all_entries
      address_book.entries.each do |entry|
        system "clear"
